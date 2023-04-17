@@ -1,0 +1,34 @@
+{
+  "name": "scf-static",
+  "version": "0.2.2",
+  "description": "@halsp/cli 创建的项目",
+  "homepage": "https://halsp.org",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/halsp/cli"
+  },
+  "keywords": [
+    "halsp",
+    "template",
+    "scaffold"
+  ],
+  "bugs": {
+    "url": "https://github.com/halsp/cli/issues",
+    "email": "support@hal.wang"
+  },
+  "scripts": {
+    "dev": "node native.js",
+    "start": "npm run dev"
+  },
+  "author": "hal-wang",
+  "license": "MIT",
+  "dependencies": {
+    "@halsp/core": "^1.0.4",
+    "@halsp/lambda": "^1.0.4",
+    "@halsp/static": "^1.0.4",
+    "reflect-metadata": "^0.1.13"
+  },
+  "devDependencies": {
+    "@halsp/native": "^1.0.4"
+  }
+}
