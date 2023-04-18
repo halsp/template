@@ -1,1 +1,0 @@
-GET https://env-caafniqh-1253337886.ap-shanghai.app.tcloudbase.com/background?color=%23ff0000&width=1000&height=600
