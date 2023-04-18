@@ -1,0 +1,28 @@
+app: scf-static
+component: scf
+inputs:
+  description: halsp template scf-static
+  eip: false
+  handler: index.main
+  initTimeout: 65
+  memorySize: 256
+  msgTTL: 21600
+  name: scf-static
+  namespace: default
+  publicAccess: true
+  installDependency: true
+  region: ap-shanghai
+  retryNum: 2
+  role: QCS_SCFExcuteRole
+  runtime: Nodejs16.13
+  src:
+    src: .
+    exclude:
+      - node_modules/**
+  timeout: 5
+  type: event
+name: ap-shanghai_default_scf-static
+org: "1253337886"
+stage: dev
+# When using this configuration file for deployment, make sure the file name is "serverless.yml".
+# For more information: https://github.com/serverless-components/tencent-scf/blob/master/docs/configure.md

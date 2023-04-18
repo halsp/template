@@ -18,7 +18,8 @@
   },
   "scripts": {
     "dev": "node native.js",
-    "start": "npm run dev"
+    "start": "npm run dev",
+    "deploy": "scf deploy"
   },
   "author": "hal-wang",
   "license": "MIT",
@@ -29,6 +30,7 @@
     "reflect-metadata": "^0.1.13"
   },
   "devDependencies": {
-    "@halsp/native": "^1.0.4"
+    "@halsp/native": "^1.0.4",
+    "serverless-cloud-framework": "^1.0.2"
   }
 }
