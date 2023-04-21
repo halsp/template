@@ -1,0 +1,9 @@
+{
+  "scaffold": {
+    "args": {},
+    "options": {
+      "plugins": "inject,router,pipe,validator,swagger,env,logger",
+      "env": "native"
+    }
+  }
+}
