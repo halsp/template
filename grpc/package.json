@@ -1,0 +1,32 @@
+{
+  "name": "grpc",
+  "version": "0.3.1",
+  "description": "@halsp/cli 创建的项目",
+  "homepage": "https://halsp.org",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/halsp/cli"
+  },
+  "keywords": [
+    "halsp",
+    "template",
+    "scaffold"
+  ],
+  "bugs": {
+    "url": "https://github.com/halsp/cli/issues",
+    "email": "support@hal.wang"
+  },
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "sh start.sh",
+    "postinstall": "cd app && yarn install && cd ../ms-user && yarn install && cd ../ms-todo && yarn install"
+  },
+  "author": "hal-wang",
+  "license": "MIT",
+  "devDependencies": {
+    "@halsp/cli": "0.3.1"
+  },
+  "dependencies": {
+    "@halsp/logger": "^1.1.1"
+  }
+}
