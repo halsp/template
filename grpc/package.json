@@ -18,15 +18,13 @@
   },
   "main": "dist/index.js",
   "scripts": {
-    "start": "sh start.sh",
+    "start": "node start.js",
     "postinstall": "cd app && yarn install && cd ../ms-user && yarn install && cd ../ms-todo && yarn install"
   },
   "author": "hal-wang",
   "license": "MIT",
   "devDependencies": {
-    "@halsp/cli": "0.3.1"
-  },
-  "dependencies": {
-    "@halsp/logger": "^1.1.1"
+    "@halsp/cli": "^0.3.2",
+    "cross-spawn": "^7.0.3"
   }
 }

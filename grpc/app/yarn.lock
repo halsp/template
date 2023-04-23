@@ -90,10 +90,10 @@
     formidable "^2.1.1"
     type-is "^1.6.18"
 
-"@halsp/cli@0.3.1":
-  version "0.3.1"
-  resolved "https://registry.npmmirror.com/@halsp/cli/-/cli-0.3.1.tgz#7b5f98e5dd1b60c1955a81a44e161fa1fc27c233"
-  integrity sha512-UWxqrQtHsFc9jvhp1NCVBWHE7Rjyp6H39/g3UTOOB0uXAU3terSHT8zrX2NwME+66y6MuCsvDy0A3PnJfzMElw==
+"@halsp/cli@^0.3.2":
+  version "0.3.2"
+  resolved "https://registry.npmmirror.com/@halsp/cli/-/cli-0.3.2.tgz#40f5970425016deccf7f6c18b5cfdcdb14eb5f8b"
+  integrity sha512-T8r/XOmLYhqy3lybCk3olLj3NgG1fgs9aYLQwPXl9LixNZhqfoEVCALrJ56kNc1ru+mCVvjIGDR3ZHEOMIwMPQ==
   dependencies:
     "@halsp/core" "^1.1.1"
     "@halsp/inject" "^1.1.1"
