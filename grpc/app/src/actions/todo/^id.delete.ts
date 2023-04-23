@@ -20,9 +20,9 @@ export default class extends Action {
       return;
     }
 
-    const todo = await service.deleteTodo({
+    await service.deleteTodo({
       id: this.todoId,
     });
-    this.ok(todo);
+    this.noContent();
   }
 }

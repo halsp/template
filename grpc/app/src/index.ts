@@ -6,6 +6,7 @@ import "@halsp/logger";
 new NativeStartup()
   .useHttpJsonBody()
   .useInject()
+  .useConsoleLogger()
   .useMicroGrpc({
     identity: "user",
     port: 5001,
