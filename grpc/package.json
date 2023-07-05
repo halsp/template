@@ -24,7 +24,7 @@
   "author": "hal-wang",
   "license": "MIT",
   "devDependencies": {
-    "@halsp/cli": "^0.3.2",
+    "@halsp/cli": "^0.4.6",
     "cross-spawn": "^7.0.3"
   }
 }

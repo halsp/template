@@ -1,7 +1,7 @@
 import { Action } from "@halsp/router";
 import { Body } from "@halsp/pipe";
-import { MicroGrpcClient } from "@halsp/micro-grpc-client";
-import { MicroClient } from "@halsp/micro-client";
+import { MicroGrpcClient } from "@halsp/micro-grpc";
+import { MicroClient } from "@halsp/micro";
 import { TodoService } from "../../services/todo.service";
 import { CreateTodoDto } from "../../dtos/create-todo.dto";
 import { V } from "@halsp/validator";

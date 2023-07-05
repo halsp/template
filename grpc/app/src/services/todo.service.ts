@@ -1,4 +1,4 @@
-import { WriteIterator } from "@halsp/micro-grpc-client";
+import { WriteIterator } from "@halsp/micro-grpc";
 import { CreateTodoDto } from "../dtos/create-todo.dto";
 import { TodoDto } from "../dtos/todo.dto";
 import { UpdateTodoDto } from "../dtos/update-todo.dto";

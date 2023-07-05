@@ -1,8 +1,8 @@
 import { Action } from "@halsp/router";
 import { Body } from "@halsp/pipe";
 import { LoginDto } from "../../dtos/login.dto";
-import { MicroGrpcClient } from "@halsp/micro-grpc-client";
-import { MicroClient } from "@halsp/micro-client";
+import { MicroGrpcClient } from "@halsp/micro-grpc";
+import { MicroClient } from "@halsp/micro";
 import { UserService } from "../../services/user.service";
 import { V } from "@halsp/validator";
 
