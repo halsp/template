@@ -1,5 +1,6 @@
 {
   "extends": {
     "template": "https://github.com/hal-wang/todo"
-  }
+  },
+  "desc": "TODO with Frontend and backend"
 }

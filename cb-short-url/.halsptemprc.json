@@ -1,5 +1,6 @@
 {
   "extends": {
     "template": "https://github.com/hal-wang/short-url"
-  }
+  },
+  "desc": "Simplify your URL"
 }
